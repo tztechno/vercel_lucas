@@ -20,6 +20,7 @@ cd vercel_lucas
 
 git init
 git remote add origin https://github.com/tztechno/vercel_lucas2
+git pull
 git add .
 git commit -m "Session Results"
 git push -u origin main
