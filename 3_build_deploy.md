@@ -19,7 +19,7 @@ Input: 46, Result: 4106118243, Time: 30.473171 seconds
 cd vercel_lucas
 
 git init
-git remote add origin https://github.com/tztechno/vercel_lucas2
+git remote add origin https://github.com/tztechno/vercel_lucas_sqlite.git
 git pull
 git add .
 git commit -m "Session Results"
@@ -27,6 +27,6 @@ git push -u origin main
 
 git push -f origin main　強制
 
-https://tztechno.github.io/vercel_lucas2/
+https://tztechno.github.io/vercel_lucas_sqlite
 
 ```
