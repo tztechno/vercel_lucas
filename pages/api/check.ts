@@ -1,6 +1,5 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 
-// Lucas数を計算する関数
 const calculateLucasNumber = (n: number): number => {
     if (n === 0) return 2;
     if (n === 1) return 1;
@@ -11,6 +10,12 @@ const calculateLucasNumber = (n: number): number => {
         b = c;
     }
     return c;
+};
+
+const calculateLucasNumber2 = (n: number): number => {
+    if (n === 0) return 2;
+    if (n === 1) return 1;
+    return calculateLucasNumber(n - 1) + calculateLucasNumber(n - 2);
 };
 
 export default (req: NextApiRequest, res: NextApiResponse) => {

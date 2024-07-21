@@ -90,14 +90,16 @@ export default (req: NextApiRequest, res: NextApiResponse) => {
 これにより、Next.jsを使用して完全なフロントエンドとバックエンドを構築し、Lucas数を計算することができます。
 
 ```
+cd vercel_lucas
+
 git init
-git remote add origin https://github.com/tztechno/vercel_lucas
+git remote add origin https://github.com/tztechno/vercel_lucas2
 git add .
-git commit -m "Initial commit"
+git commit -m "Session Results"
 git push -u origin main
 
 git push -f origin main　強制
 
-https://tztechno.github.io/vercel_lucas/
+https://tztechno.github.io/vercel_lucas2/
 
 ```

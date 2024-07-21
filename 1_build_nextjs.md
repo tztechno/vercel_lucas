@@ -45,6 +45,7 @@ npm install
 Next.js開発サーバーを起動して、アプリケーションが正しく設定されているか確認します。
 
 ```bash
+cd vercel_lucas
 npm run dev
 ```
 
