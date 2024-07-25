@@ -35,7 +35,7 @@ const Home = () => {
     return (
         <div style={{ display: 'flex' }}>
             <div style={{ flex: 1 }}>
-                <h1>Lucas Number</h1>
+                <h1>Ts Lucas Number</h1>
                 <input
                     type="number"
                     value={number !== undefined ? number : ''}
