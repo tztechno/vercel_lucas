@@ -1,6 +1,6 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 
-const calculateLucasNumber = (n: number): number => {
+const calculateLucasNumber2 = (n: number): number => {
     if (n === 0) return 2;
     if (n === 1) return 1;
     let a = 2, b = 1, c = 0;
@@ -12,7 +12,7 @@ const calculateLucasNumber = (n: number): number => {
     return c;
 };
 
-const calculateLucasNumber2 = (n: number): number => {
+const calculateLucasNumber = (n: number): number => {
     if (n === 0) return 2;
     if (n === 1) return 1;
     return calculateLucasNumber(n - 1) + calculateLucasNumber(n - 2);
